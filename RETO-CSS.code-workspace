@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "name": "RETO-CSS",
+            "path": "RETO-CSS"
+        },
+        {
+            "name": "Form-Grid",
+            "path": "Form-Grid"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Form-Grid"
+    }
+}
