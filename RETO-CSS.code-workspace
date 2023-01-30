@@ -7,9 +7,12 @@
         {
             "name": "Form-Grid",
             "path": "Form-Grid"
+        },
+        {
+            "path": "web-portfolio"
         }
     ],
     "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "RETO-CSS"
+        "liveServer.settings.multiRootWorkspaceName": "web-portfolio"
     }
 }
