@@ -62,3 +62,23 @@ body {
     font-weight: 600;
     box-shadow: 0 0 1px;
 }
+
+.hero__main {
+    text-align: center;
+    color: var(--very-dark-cyan)
+}
+
+.hero__title {
+    font-family: var(--poppins);
+}
+
+.hero__paragraph {
+    width: 90%;
+    line-height: 1.5;
+    margin: 16px auto;
+}
+
+.cta {
+    display: inline-block;
+    background-color: white;
+}
