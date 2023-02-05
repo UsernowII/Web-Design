@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color1: url("https://www.elsoldemexico.com.mx/gossip/8esuvu-amazin-spiderman-.png/ALTERNATES/LANDSCAPE_1140/Amazin%20Spiderman%20.png");
+    --bg-color2: url("https://uvn-brightspot.s3.amazonaws.com/assets/vixes/n/non_stop_spiderman_marvel_comics.jpg");
+}
+
+.bg {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: var(--bg-color2);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 500px) {
+    .bg {
+
+        background-image: var(--bg-color1);
+    }
+}
