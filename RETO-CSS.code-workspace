@@ -10,9 +10,12 @@
         },
         {
             "path": "web-portfolio"
+        },
+        {
+            "path": "card"
         }
     ],
     "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "RETO-CSS"
+        "liveServer.settings.multiRootWorkspaceName": "card"
     }
 }
