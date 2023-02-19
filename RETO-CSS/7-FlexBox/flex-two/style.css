@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    margin: 80px auto;
+    outline: 4px solid black;
+}
+
+
+.item {
+
+    height: 100px;
+    width: 80px;
+
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.item-1 {
+    background-color: orange;
+}
+.item-2 {
+    background-color: steelblue;
+}
+.item-3 {
+    background-color: green;
+}
+.item-4 {
+    background-color: purple;
+}
