@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cabcf5;
+
+    outline: 1px solid red;
+}
+
+.article {
+    width: 70%;
+    max-width: 500px;
+    background-color: white;
+    margin: 40px auto;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.img{
+    width: 100%;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.paragraph {
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+.cta {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0 auto;
+}
