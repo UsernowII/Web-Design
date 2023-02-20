@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    outline: 4px solid black;
+}
+
+.container {
+    display: grid;
+
+
+    grid-auto-flow: row;
+
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 40%) 20%;
+}
+
+
+.item {
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.item-1 {
+    background-color: orange;
+}
+
+.item-2 {
+    background-color: purple;
+}
+
+.item-3 {
+    background-color: green;
+}
+
+.item-4 {
+    background-color: lightpink;
+}
+
+.item-5 {
+    background-color: red;
+}
+
+.item-6 {
+    background-color: blue;
+}
